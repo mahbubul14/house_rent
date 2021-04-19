@@ -29,17 +29,36 @@
 /* ................search section css............. */
 
 .search-container {
-  background-image: url(./images/search-bg.jpg);
+  position: relative;
+  width: 100%;
+}
+
+.s-img {
+  width: 100%;
 }
 
 .search-content {
-  margin-left: 10%;
-  margin-bottom: 100%;
-  padding-bottom: 100px;
-  background-color: whitesmoke;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.97;
 }
 
-/* ........media query section........ */
+.s-box {
+  background-color: #bababf;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.s-btn {
+  width: 100%;
+  background-color: #d35649;
+}
+
+/* ...............media query section.............. */
 
 /* ...mobile view... */
 
