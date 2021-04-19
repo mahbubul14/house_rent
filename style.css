@@ -1,10 +1,13 @@
+
+/* ................nav bar.............. */
+
 .logo {
   max-width: 25px;
   margin-right: 5px;
 }
 
 .bg-red {
-  background-color: #d35649
+  background-color: #d35649;
 }
 
 .me-6 {
@@ -21,6 +24,19 @@
 
 .nav-link {
   white-space: nowrap;
+}
+
+/* ................search section css............. */
+
+.search-container {
+  background-image: url(./images/search-bg.jpg);
+}
+
+.search-content {
+  margin-left: 10%;
+  margin-bottom: 100%;
+  padding-bottom: 100px;
+  background-color: whitesmoke;
 }
 
 /* ........media query section........ */
