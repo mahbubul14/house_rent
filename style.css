@@ -65,9 +65,17 @@ form input {
   width: 84%;
 }
 
-/* ...............media query section.............. */
+/* ...........result page css........... */
 
-/* ...mobile view... */
+ul select {
+  width: 100%;
+}
+
+ul a {
+  width: 100%;
+}
+
+/* ...............media query section.............. */
 
 @media screen and (max-width: 767px) {
   body {
@@ -123,6 +131,24 @@ form input {
   .f-2-content {
     flex: 1;
   }
+
+  .social ul {
+    margin-left: 800px;
+  }
+
+  /* ............result page style........ */
+
+  .select-box select {
+    flex: 1;
+    padding: 8px;
+    width: 120px;
+    margin: 2px;
+  }
+
+  .result-btn {
+    white-space: nowrap;
+    margin: 2px;
+  }
 }
 
 /* ...desktop view... */
@@ -144,5 +170,19 @@ form input {
   .f-2-content {
     flex: 1;
     margin: 2%;
+  }
+
+  /* ............result page style........ */
+
+  .select-box select {
+    flex: 1;
+    padding: 8px;
+    width: 120px;
+    margin: 2px;
+  }
+
+  .result-btn {
+    white-space: nowrap;
+    margin: 2px;
   }
 }
