@@ -28,51 +28,89 @@
 
 /* ................search section css............. */
 
-.search-container {
+.s-bg-container {
+  background:
+    linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("./images/search-background.jpg");
   position: relative;
-  width: 100%;
+  background-size: cover;
+  height: 500px;
 }
 
-.s-img {
-  width: 100%;
-}
-
-.search-content {
+.s-content {
   position: absolute;
-  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.97;
 }
 
 .s-box {
-  background-color: #bababf;
-  padding: 2%;
-  margin: 1%;
-  border-radius: 10px;
+  width: 100%;
+  padding: 50px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 5px;
 }
 
-.s-btn {
-  width: 100%;
-  background-color: #d35649;
+form .btn {
+  width: 25%;
+}
+
+.button-work {
+  left: 40%;
+}
+
+/* ...............footer section.............. */
+
+.footer-content {
+  margin-top: 20px;
+  height: 250px;
 }
 
 /* ...............media query section.............. */
 
 /* ...mobile view... */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body {
     background-color: lightgreen;
   }
 
   .ms-6 {
-    padding-left: 100px;
+    margin-left: 20px;
   }
 
   .nav-link {
     padding-top: 20px;
+  }
+
+  .s-bg-container {
+    height: 420px;
+  }
+
+  .s-content {
+    width: 100%;
+    top: 45%;
+  }
+
+  .s-h-text {
+    margin-left: 40px;
+  }
+
+  .s-box {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /*
+    form input {
+      width: 100%;
+      padding: 7px;
+    } */
+
+  form .btn {
+    width: 100%;
+    margin-top: 10px;
   }
 }
 
@@ -82,6 +120,10 @@
   body {
     background-color: lightblue;
   }
+
+  .s-content {
+    width: 90%;
+  }
 }
 
 /* ...desktop view... */
@@ -89,5 +131,9 @@
 @media screen and (min-width: 1024px) {
   body {
     background-color: lightgray;
+  }
+
+  .s-content {
+    width: 600px;
   }
 }
