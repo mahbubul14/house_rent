@@ -75,6 +75,10 @@ ul a {
   width: 100%;
 }
 
+/* .card {
+  width: 60%;
+} */
+
 /* ...............media query section.............. */
 
 @media screen and (max-width: 767px) {
@@ -149,6 +153,10 @@ ul a {
     white-space: nowrap;
     margin: 2px;
   }
+}
+
+.card {
+  width: 95%;
 }
 
 /* ...desktop view... */
