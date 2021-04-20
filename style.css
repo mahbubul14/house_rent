@@ -61,22 +61,8 @@ form .btn {
 
 /* ...............footer section.............. */
 
-.footer-content {
-  margin-top: 20px;
-  height: 250px;
-}
-
-.subscribe {
-  background-color: red;
-}
-
-/* .sub-box {
-  width: 100%;
-} */
-
-.sub-text-box {
-  width: 85%;
-  display: inline-block;
+form input {
+  width: 84%;
 }
 
 /* ...............media query section.............. */
@@ -111,12 +97,6 @@ form .btn {
     padding: 20px;
   }
 
-  /*
-    form input {
-      width: 100%;
-      padding: 7px;
-    } */
-
   form .btn {
     width: 100%;
     margin-top: 10px;
@@ -132,6 +112,16 @@ form .btn {
 
   .s-content {
     width: 80%;
+    margin: 2%;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .f-2-content {
+    flex: 1;
   }
 }
 
@@ -144,5 +134,15 @@ form .btn {
 
   .s-content {
     width: 600px;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .f-2-content {
+    flex: 1;
+    margin: 2%;
   }
 }
