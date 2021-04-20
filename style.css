@@ -66,6 +66,19 @@ form .btn {
   height: 250px;
 }
 
+.subscribe {
+  background-color: red;
+}
+
+/* .sub-box {
+  width: 100%;
+} */
+
+.sub-text-box {
+  width: 85%;
+  display: inline-block;
+}
+
 /* ...............media query section.............. */
 
 /* ...mobile view... */
@@ -73,10 +86,6 @@ form .btn {
 @media screen and (max-width: 767px) {
   body {
     background-color: lightgreen;
-  }
-
-  .ms-6 {
-    margin-left: 20px;
   }
 
   .nav-link {
@@ -122,7 +131,7 @@ form .btn {
   }
 
   .s-content {
-    width: 90%;
+    width: 80%;
   }
 }
 
