@@ -104,10 +104,6 @@ ul a {
 /* ...............media query section.............. */
 
 @media screen and (max-width: 767px) {
-  body {
-    background-color: lightgreen;
-  }
-
   .nav-link {
     padding-top: 20px;
   }
@@ -166,10 +162,6 @@ ul a {
 /* ..................tablet view................. */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background-color: lightblue;
-  }
-
   .s-content {
     width: 80%;
     margin: 2%;
@@ -239,10 +231,6 @@ ul a {
 /* .......................desktop view................ */
 
 @media screen and (min-width: 1024px) {
-  body {
-    background-color: lightgray;
-  }
-
   .s-content {
     width: 600px;
   }
