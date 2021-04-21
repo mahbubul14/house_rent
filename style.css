@@ -1,8 +1,17 @@
 
-/* ................nav bar.............. */
 * {
   font-family: 'Roboto', sans-serif;
 }
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+.bg-light-dark {
+  background-color: #313131;
+}
+
+/* ................nav bar.............. */
 
 .logo {
   max-width: 25px;
@@ -27,10 +36,6 @@
 
 .nav-link {
   white-space: nowrap;
-}
-
-.bg-whitesmoke {
-  background-color: whitesmoke;
 }
 
 /* ................search section css............. */
