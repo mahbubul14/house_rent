@@ -71,6 +71,10 @@ form .btn {
   left: 40%;
 }
 
+.grid-t-box {
+  padding-top: 40px;
+}
+
 /* ...............footer section.............. */
 
 form input {
@@ -180,11 +184,6 @@ ul a {
     padding-bottom: 10px;
   }
 
-  .grid-container div {
-    padding-bottom: 30px;
-    margin-top: 20px;
-  }
-
   .footer-2 {
     display: flex;
     justify-content: space-between;
@@ -245,11 +244,6 @@ ul a {
     grid-template-columns: auto auto;
     grid-gap: 5%;
     padding: 10px;
-  }
-
-  .grid-container div {
-    padding-bottom: 30px;
-    margin-top: 20px;
   }
 
   .footer-2 {
