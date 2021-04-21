@@ -89,13 +89,11 @@ ul a {
 /* ......details page css..... */
 
 .table-box {
-  background-color: whitesmoke;
   margin-left: 8%;
   margin-right: 8%;
 }
 
 .map {
-  background-color: whitesmoke;
   margin-left: 8%;
   margin-right: 8%;
 }
@@ -174,7 +172,6 @@ ul a {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5%;
-    background-color: whitesmoke;
     padding-bottom: 10px;
   }
 
@@ -242,7 +239,6 @@ ul a {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5%;
-    background-color: whitesmoke;
     padding: 10px;
   }
 
