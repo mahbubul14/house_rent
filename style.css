@@ -75,9 +75,9 @@ ul a {
   width: 100%;
 }
 
-/* .card {
-  width: 60%;
-} */
+.card {
+  width: 95%;
+}
 
 /* ...............media query section.............. */
 
@@ -113,9 +113,36 @@ ul a {
     width: 100%;
     margin-top: 10px;
   }
+
+  .card {
+    margin-bottom: 20px;
+    margin-left: 12px;
+  }
+
+  .details-table {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .t-h-text {
+    text-align: center;
+  }
+
+  .row-line {
+    border: 1px solid silver;
+    padding: 10px 100px 10px 10px;
+  }
+
+  .apply-btn {
+    text-align: center;
+  }
+
+  .table-column li {
+    padding-left: 5%;
+  }
 }
 
-/* ...tablet view... */
+/* ..................tablet view................. */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
@@ -140,7 +167,7 @@ ul a {
     margin-left: 800px;
   }
 
-  /* ............result page style........ */
+  /* ........result page style....... */
 
   .select-box select {
     flex: 1;
@@ -153,13 +180,29 @@ ul a {
     white-space: nowrap;
     margin: 2px;
   }
+
+  /* ........details page style....... */
+
+  .details-table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-h-text {
+    text-align: center;
+  }
+
+  .row-line {
+    border: 1px solid silver;
+    padding: 10px 100px 10px 10px;
+  }
+
+  .apply-btn {
+    text-align: center;
+  }
 }
 
-.card {
-  width: 95%;
-}
-
-/* ...desktop view... */
+/* .......................desktop view................ */
 
 @media screen and (min-width: 1024px) {
   body {
@@ -180,7 +223,7 @@ ul a {
     margin: 2%;
   }
 
-  /* ............result page style........ */
+  /* ......result page style..... */
 
   .select-box select {
     flex: 1;
@@ -192,5 +235,25 @@ ul a {
   .result-btn {
     white-space: nowrap;
     margin: 2px;
+  }
+
+  /* ......details page style..... */
+
+  .details-table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-h-text {
+    text-align: center;
+  }
+
+  .row-line {
+    border: 1px solid silver;
+    padding: 10px 100px 10px 10px;
+  }
+
+  .apply-btn {
+    text-align: center;
   }
 }
