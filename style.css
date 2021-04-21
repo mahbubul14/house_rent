@@ -202,7 +202,7 @@ ul a {
     flex: 1;
     padding: 8px;
     width: 120px;
-    margin: 2px;
+    margin-right: 10px;
   }
 
   .result-btn {
