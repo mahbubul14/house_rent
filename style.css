@@ -22,6 +22,10 @@
   background-color: #d35649;
 }
 
+.text-red {
+  color: #d35649;
+}
+
 .me-6 {
   padding-right: 60px;
 }
@@ -71,8 +75,8 @@ form .btn {
   left: 40%;
 }
 
-.grid-t-box {
-  padding-top: 40px;
+.grid-container {
+  padding: 30px;
 }
 
 /* ...............footer section.............. */
@@ -142,6 +146,10 @@ ul a {
     margin-top: 10px;
   }
 
+  .grid-t-box {
+    padding-top: 20px;
+  }
+
   .card {
     margin-bottom: 20px;
   }
@@ -180,8 +188,8 @@ ul a {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 5%;
-    padding-bottom: 10px;
+    grid-gap: 60px;
+    padding: 10%;
   }
 
   .footer-2 {
@@ -242,8 +250,8 @@ ul a {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 5%;
-    padding: 10px;
+    grid-gap: 60px;
+    padding: 10%;
   }
 
   .footer-2 {
