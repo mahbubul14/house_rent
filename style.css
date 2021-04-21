@@ -26,6 +26,10 @@
   white-space: nowrap;
 }
 
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
 /* ................search section css............. */
 
 .s-bg-container {
@@ -76,7 +80,7 @@ ul a {
 }
 
 .card {
-  width: 95%;
+  width: 100%;
 }
 
 /* ......details page css..... */
@@ -134,7 +138,6 @@ ul a {
 
   .card {
     margin-bottom: 20px;
-    margin-left: 12px;
   }
 
   .details-table {
