@@ -7,13 +7,13 @@
 A responsive website built following the original project specifications from [Microverse Capstone Project - Directory of Schools](https://www.notion.so/HTML-CSS-capstone-project-Directory-of-Schools-eea352bfaf3e4a83b2917df1f9a4e140)
 
 ### Main page
-![screenshot](images/main-page.png)
+![screenshot](./images/main-page.PNG)
 
 ### Search results page
-![screenshot](images/search-results.png)
+![screenshot](./images/result-page.PNG)
 
 ### Details page
-![screenshot](images/details.png)
+![screenshot](./images/detail-page.PNG)
 
 Project requirements included using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height), Bootstrap, creating UIs adaptable to different screen sizes using mediaqueries and using industry-standard tools (flexbox) to place elements on the page.
 
@@ -43,9 +43,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Cloning the repo
 
-- Copy this link [Directory-of-Restaurants](https://github.com/ZeenatLawal/Directory-of-Restaurants.git)
+- Copy this link [Directory-of-Homerent](https://github.com/mahbubul14/house_rent/tree/homerent-directory)
 - Open your terminal or command line in the folder you want the project to be
-- Run the command git clone with the link you copied above `git clone https://github.com/ZeenatLawal/Directory-of-Restaurants.git`
+- Run the command git clone with the link you copied above `git clone https://github.com/mahbubul14/house_rent.git`
 - Open the folder with your code editor and run the index.html file using a live server
 
 
