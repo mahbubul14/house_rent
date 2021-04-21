@@ -79,6 +79,24 @@ ul a {
   width: 95%;
 }
 
+/* ......details page css..... */
+
+.table-box {
+  background-color: whitesmoke;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.map {
+  background-color: whitesmoke;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.map-img {
+  width: 100%;
+}
+
 /* ...............media query section.............. */
 
 @media screen and (max-width: 767px) {
@@ -167,7 +185,7 @@ ul a {
     margin-left: 800px;
   }
 
-  /* ........result page style....... */
+  /* ........t-result page style....... */
 
   .select-box select {
     flex: 1;
@@ -181,7 +199,7 @@ ul a {
     margin: 2px;
   }
 
-  /* ........details page style....... */
+  /* ........t-details page style....... */
 
   .details-table {
     display: flex;
@@ -223,7 +241,7 @@ ul a {
     margin: 2%;
   }
 
-  /* ......result page style..... */
+  /* ......d-result page style..... */
 
   .select-box select {
     flex: 1;
@@ -237,7 +255,7 @@ ul a {
     margin: 2px;
   }
 
-  /* ......details page style..... */
+  /* ......d-details page style..... */
 
   .details-table {
     display: flex;
