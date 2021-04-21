@@ -175,6 +175,14 @@ ul a {
     margin: 2%;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+
   .footer-2 {
     display: flex;
     justify-content: space-between;
@@ -232,6 +240,14 @@ ul a {
 
   .s-content {
     width: 600px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+    background-color: whitesmoke;
+    padding: 10px;
   }
 
   .footer-2 {
