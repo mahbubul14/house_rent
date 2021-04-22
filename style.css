@@ -1,0 +1,333 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+.bg-light-dark {
+  background-color: #313131;
+}
+
+.bg-orange {
+  background-color: #e17f65;
+}
+
+.bg-silver {
+  background-color: #99a5a6;
+}
+
+.bg-sky {
+  background-color: #519cd7;
+}
+
+/* ................nav bar.............. */
+
+.logo {
+  max-width: 25px;
+  margin-right: 5px;
+}
+
+.bg-red {
+  background-color: #d35649;
+}
+
+.text-red {
+  color: #d35649;
+}
+
+.me-6 {
+  padding-right: 60px;
+}
+
+.ms-6 {
+  padding-left: 70px;
+}
+
+.nav-top {
+  justify-content: space-between;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+/* ................search section css............. */
+
+.s-bg-container {
+  background:
+    linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("./images/search-background.jpg");
+  position: relative;
+  background-size: cover;
+  height: 500px;
+}
+
+.s-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.s-box {
+  width: 100%;
+  padding: 50px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+form .btn {
+  width: 25%;
+}
+
+.button-work {
+  left: 40%;
+}
+
+.grid-container {
+  padding: 30px;
+}
+
+.round-img {
+  width: 250px;
+  height: 250px;
+}
+
+.more-content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ...............footer section.............. */
+
+form input {
+  width: 84%;
+}
+
+/* ...........result page css........... */
+
+ul select {
+  width: 100%;
+}
+
+ul a {
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+}
+
+/* ......details page css..... */
+
+.table-box {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.map {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.map-img {
+  width: 100%;
+}
+
+/* ...............media query section.............. */
+
+@media screen and (max-width: 767px) {
+  .nav-link {
+    padding-top: 20px;
+  }
+
+  .s-bg-container {
+    height: 420px;
+  }
+
+  .s-content {
+    width: 100%;
+    top: 45%;
+  }
+
+  .s-h-text {
+    margin-left: 40px;
+  }
+
+  .s-box {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  form .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .grid-t-box {
+    padding-top: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .details-table {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .t-h-text {
+    text-align: center;
+  }
+
+  .row-line {
+    border: 1px solid silver;
+    padding: 10px 100px 10px 10px;
+  }
+
+  .apply-btn {
+    text-align: center;
+  }
+
+  .table-column li {
+    padding-left: 5%;
+  }
+}
+
+/* ..................tablet view................. */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .s-content {
+    width: 80%;
+    margin: 2%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 60px;
+    padding: 10%;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .f-2-content {
+    flex: 1;
+  }
+
+  .social ul {
+    margin-left: 800px;
+  }
+
+  /* ........t-result page style....... */
+
+  .select-box select {
+    flex: 1;
+    padding: 8px;
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .result-btn {
+    white-space: nowrap;
+    margin: 2px;
+  }
+
+  /* ........t-details page style....... */
+
+  .details-table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-h-text {
+    text-align: center;
+  }
+
+  .row-line {
+    border: 1px solid silver;
+    padding: 10px 100px 10px 10px;
+  }
+
+  .apply-btn {
+    text-align: center;
+  }
+}
+
+/* .......................desktop view................ */
+
+@media screen and (min-width: 1024px) {
+  .s-content {
+    width: 600px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 60px;
+    padding: 10%;
+  }
+
+  .footer-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .f-2-content {
+    flex: 1;
+    margin: 2%;
+  }
+
+  .more-content-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .more-content-text {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  /* ......d-result page style..... */
+
+  .select-box select {
+    flex: 1;
+    padding: 8px;
+    width: 120px;
+    margin: 2px;
+  }
+
+  .result-btn {
+    white-space: nowrap;
+    margin: 2px;
+  }
+
+  /* ......d-details page style..... */
+
+  .details-table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .t-h-text {
+    text-align: center;
+  }
+
+  .row-line {
+    border: 1px solid silver;
+    padding: 10px 100px 10px 10px;
+  }
+
+  .apply-btn {
+    text-align: center;
+  }
+}
