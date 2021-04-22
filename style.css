@@ -11,6 +11,18 @@
   background-color: #313131;
 }
 
+.bg-orange {
+  background-color: #e17f65;
+}
+
+.bg-silver {
+  background-color: #99a5a6;
+}
+
+.bg-sky {
+  background-color: #519cd7;
+}
+
 /* ................nav bar.............. */
 
 .logo {
@@ -77,6 +89,16 @@ form .btn {
 
 .grid-container {
   padding: 30px;
+}
+
+.round-img {
+  width: 250px;
+  height: 250px;
+}
+
+.more-content-box {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ...............footer section.............. */
@@ -262,6 +284,17 @@ ul a {
   .f-2-content {
     flex: 1;
     margin: 2%;
+  }
+
+  .more-content-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .more-content-text {
+    margin-top: 40px;
+    text-align: left;
   }
 
   /* ......d-result page style..... */
